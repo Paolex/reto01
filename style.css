@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(30, 18%, 87%);
+    display: flex;
+}
+
+main{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    padding: 30px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+}
+
+p{
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+}
+
+li{
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+}
+
+.preparacion{
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 10px;
+    padding: 20px;
+    color: hsl(332, 51%, 32%);
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+}
+
+img{
+    border-radius: 10px;
+    width: 100%;
+}
+  
+.subtitulo{
+    color: hsl(14, 45%, 36%);
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+}
+
+td{
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+}
+
+.numero{
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+.tabla{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
